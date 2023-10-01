@@ -1,0 +1,258 @@
+.container {
+   max-width: 1920px;
+   height: 1138px;
+   flex-shrink: 0;
+   background: url(/src/img/backg-main.jpg), no-repeat;
+   background-size: cover;
+   background-position: center;   
+}
+
+.header{
+   display: flex;
+   position: relative;
+   justify-content: space-between;
+}
+
+.header--logo--wrap{
+   display: flex;
+}
+
+.header--logo--t{
+   margin-top: 40px;
+   margin-left: 89px;
+   display: flex;
+   width: 46px;
+   height: 99px;
+   flex-direction: column;
+   flex-shrink: 0;
+   color: #FFF;
+   font-family: Average;
+   font-size: 71px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   letter-spacing: 6.39px;
+}
+
+.header--logo-ravel{
+   margin-top: 59px;
+   margin-left: 0;
+   color: #FFF;
+   font-family: Average;
+   font-size: 39px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   letter-spacing: 3.51px;
+   z-index: 1;
+}
+
+.header--logo--yellow{
+   position: absolute;
+   left: 144px;
+   top: 64px;
+   z-index: 0;
+   width: 40px;
+   height: 50px;
+   flex-shrink: 0;
+   border-radius: 15px;
+   background: #FEA800;
+}
+
+.header--nav--wrap{
+   display: flex;
+   margin-right: 117px;
+   text-align: center;
+   justify-content: center;
+}
+
+.header--button--book{
+   margin-top: 53px;
+   margin-right: 31px;
+   width: 135px;
+   height: 47.769px;
+   flex-shrink: 0;
+   border-radius: 1.385px;
+   background: #FEA800;
+   text-align: center;
+   justify-content: center;
+   color: #FFF;
+   font-family: Nunito Sans;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 800;
+   line-height: normal;
+}
+
+.header--nav-ul{
+   display: flex; 
+   padding-top: 63px;
+}
+
+.header--nav-li{
+   margin-left: 30px;
+      > a {
+         color: #FFF;
+      font-family: Archivo;
+      font-size: 29px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      letter-spacing: 2.61px;
+      } 
+}
+
+.header--nav--more{
+   margin-left: 64px;
+   margin-top: 68px;
+   display: block;
+}
+
+/* Content  */
+
+.content--main--header{
+   margin-top:65px;
+   margin-left: 220px;
+   margin-bottom: 10px;
+   text-transform: uppercase;
+   color: #FFF;
+   font-family: DM Sans;
+   font-size: 200px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+}
+
+.content--main--text{
+   margin-left: 247px;
+   margin-bottom: 87px;
+   text-transform: uppercase;
+   color: #FFF;
+   font-family: DM Sans;
+   font-size: 41px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+   letter-spacing: 17.63px;
+   position: relative;
+   display: inline-block;
+}
+
+.content--main--text::before{
+   width: 410px;
+   height: 3px;
+   left: -340px;
+   content: " ";
+   position: absolute;
+   transform: rotate(90deg);
+   flex-shrink: 0;
+   opacity: 0.6700000166893005;
+   background: #FFF;
+}
+
+.content--main--description{
+   width: 665px;
+   height: auto;
+   margin-left: 247px;
+   margin-bottom: 36px;
+   color: #FFF;
+   font-family: Archivo;
+   font-size: 27px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+}
+
+.content--main--button{
+   width: 319px;
+   height: 85px;
+   margin-left: 247px;
+   flex-shrink: 0;
+   border-radius: 112px;
+   background: #FEA800;
+   color: #FFF;
+   font-family: DM Sans;
+   font-size: 33px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+   letter-spacing: 1.32px;
+}
+
+.contacts--social{
+   margin-left: 94px;
+   margin-bottom: 113px;
+   position: absolute;
+}
+
+.text--bottom--wrap{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   margin-left: 1466px;
+   padding-bottom: 245px;
+}
+
+.text--bottom--wrap::before{
+   width: 784px;
+   height: 3px;
+   right: 500px;
+   bottom: 168px;
+   content: " ";
+   position: absolute;
+   flex-shrink: 0;
+   opacity: 0.6700000166893005;
+   background: #FFF;
+}
+
+.text--bottom--plan{
+   width: 200px;
+   height: 47px;
+   text-transform: uppercase;
+   flex-shrink: 0;
+   color: #FFF;
+   font-family: Nunito;
+   font-size: 34.114px;
+   font-style: normal;
+   font-weight: 800;
+   line-height: normal;
+   position: absolute;
+   top:0;
+   
+   
+}
+
+.text--bottom--vacation{
+   width: 365px;
+   height: 97px;
+   text-transform: uppercase;
+   flex-shrink: 0;
+   color: #FEA800;
+   font-family: Nunito;
+   font-size: 70.36px;
+   font-style: normal;
+   font-weight: 800;
+   line-height: normal;
+   position: absolute;
+   top: 30px;
+  
+}
+
+.text--bottom--withus{
+
+   width: 199.352px;
+   height: 46.906px;
+   text-transform: uppercase;
+   flex-shrink: 0;
+   color: #FFF;
+   font-family: Nunito;
+   font-size: 34.114px;
+   font-style: normal;
+   font-weight: 800;
+   line-height: normal;
+   position: absolute;
+   top: 110px;
+}
+
+
+
